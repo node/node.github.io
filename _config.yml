@@ -1,0 +1,50 @@
+# Site settings
+title: "Gentle Yang's Blog"
+email: nodexy@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  "Gentle Yang's Blog"
+baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "" # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+author: Gentle Yang
+twitter:
+  username: nodex
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+
+# Social account
+twitter: nodex
+# weibo:    ID
+github: node
+# codepen:  username
+# dribbble: username
+
+# avatar and Favicon
+#avatar: 
+#favicon: http://xxx.xxx/xxx.icon
+
+# disqus config
+#disqus:
+#  shortname: 
+
+# google analytics config
+#ga:
+#  id: UA-
+#  url: 
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
