@@ -25,4 +25,4 @@ layout: post
 
 ## 关于本人
 
-Another developer .
+参考 [关于](2016/10/23/about-me.html)
